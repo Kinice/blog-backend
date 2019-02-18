@@ -1,15 +1,22 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "define-your-own-databse-for-development",
+    "password": "123456",
+    "database": "blog_dev",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
+    "password": "123456",
+    "database": "blog_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "123456",
     "password": null,
-    "database": "define-your-own-databse-for-unittest",
+    "database": "blog_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
