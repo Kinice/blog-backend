@@ -22,6 +22,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+    "dev": "egg-bin dev",
     "autod": "autod",
     "lint": "eslint .",
     "test": "egg-bin test",
