@@ -9,11 +9,13 @@ module.exports = app => {
       primaryKey: true,
       autoIncrement: true
     },
-    name: STRING(30),
-    password: STRING(30),
+    uid: INTEGER,
+    uname: STRING(30),
+    aid: INTEGER,
+    comment: TEXT,
     type: STRING(3),
-    email: STRING(45),
-    phone: STRING(20),
+    replyid: INTEGER,
+    parentid: INTEGER,
     created_at: DATE,
     updated_at: DATE
   })
