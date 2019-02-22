@@ -1,0 +1,39 @@
+{
+  "name": "kinice-blog-backend",
+  "version": "1.0.0",
+  "description": "Kinice new blog backend service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinice/kinice-blog-backend.git"
+  },
+  "author": "Kinice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kinice/kinice-blog-backend/issues"
+  },
+  "homepage": "https://github.com/Kinice/kinice-blog-backend#readme",
+  "dependencies": {
+    "ajv": "^6.6.2",
+    "axios": "^0.18.0",
+    "debug": "^4.1.0",
+    "ioredis": "^4.3.0",
+    "k-article": "^0.2.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "mysql2": "^1.6.4",
+    "nodemailer": "^4.7.0",
+    "nunjucks": "^3.1.6",
+    "sequelize": "^4.42.0"
+  }
+}

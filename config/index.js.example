@@ -1,0 +1,23 @@
+module.exports = {
+  port: 19001,
+  origin: 'https://mc-dev.1tai.com',
+  emailSender: {
+    user: 'xxx@xxx.com',
+    pass: 'xxxxxxx',
+    name: '发件人名',
+    receiver: 'szp93@126.com,shilingtuan@xiaoyezi.com'
+  },
+  database: {
+    type: 'mysql',
+    database: 'kblog',
+    host: '127.0.0.1',
+    username: 'root',
+    password: '123456',
+    prefix: '',
+    port: '3306'
+  },
+  redis: {
+    host: '127.0.0.1',
+    port: '6379'
+  }
+}
